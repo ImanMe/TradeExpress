@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <img src="assets/img/process6.jpg" style="width:100%" alt="" />
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h4 style="display: inline-block;">Do you have an outstanding loan?</h4>
+      <div class="icon-checkbox-sm" style="margin-top:2px; margin-left: 10px; display: inline-block; vertical-align: top;">
+        <input id="showLoan" type="checkbox" class="icon-checkbox" (change)="changeLoanStatus()" [ngModel]="loanStatus">
+        <label for="showLoan" class="">
+                    <i class='fa fa-check-square pull-left checked'></i><i class='fa fa-square pull-left unchecked'></i>
+                </label>
+      </div>
+      <br>
+      <div class="clearfix">
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="row" *ngIf="loanStatus">
+    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+      <h4>Enter Details For PayOut Quote</h4>
+      <form action="" method="POST" role="form">
+
+        <div class="form-group" *ngIf="!loanStatus">
+          <label for="">VIN value</label>
+          <input type="text" class="form-control" id="">
+        </div>
+
+        <div class="form-group">
+          <label for="">Lender Name</label>
+          <input type="text" class="form-control" id="">
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+      <button type="button" class="btn btn-danger text-uppercase" [routerLink]="loanStatus? '/poq':'/summary'">Continue</button>
+    </div>
+
+  </div>
+</div>

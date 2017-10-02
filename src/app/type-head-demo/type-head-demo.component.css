@@ -1,0 +1,33 @@
+:host >>> .completer-input {
+    width: 100%;
+    line-height: 40px;
+    background-color: #ebebeb;
+    border: none;
+    padding-left: 15px
+}
+
+:host >>> .completer-input:focus {
+    border-color: transparent;
+}
+
+.wellInvisible {
+    visibility: hidden;
+}
+
+:host >>>.completer-list-item {
+    min-width: 400px;
+}
+
+.valueHolder {
+    background-color: #ebebeb;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.carproof {
+    width: 90%;
+    line-height: 40px;
+    background-color: #ebebeb;
+    border: none;
+    padding-left: 15px
+}

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+body {
+    padding: 20px;
+}
+.text-bold { font-weight: bold }
+.form-control { border-color: #aaa; border-radius: 2px ; padding:20px 12px;}
+.form-group label {  font-weight: normal; float:left; color: #aaa; font-size: .9em;}
+
+.btn-danger { background: #b2dd4c !important; border-color: #b2dd4c !important; padding:12px 18px;text-transform: uppercase;}
+.btn-danger:visited, .btn-danger:active { background: #81a330; border-color: #607e19;}
+.btn-danger:hover { background: #80bb41 !important; border-color: #80bb41 !important;}
+hr { margin: 0 15px }

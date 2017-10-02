@@ -1,0 +1,31 @@
+input[type='checkbox'].icon-checkbox, input[type='radio'].icon-checkbox                                                         {display:none;}
+input[type='checkbox'].icon-checkbox+label .unchecked, input[type='radio'].icon-checkbox+label .unchecked                       {display:inline; color: #ddd;}
+input[type='checkbox'].icon-checkbox+label .checked, input[type='radio'].icon-checkbox+label .checked                           {display:none;}
+input[type='checkbox']:checked.icon-checkbox, input[type='radio']:checked.icon-checkbox                                         {display:none;}
+input[type='checkbox']:checked.icon-checkbox+label .unchecked, input[type='radio']:checked.icon-checkbox+label .unchecked       {display:none;}
+input[type='checkbox']:checked.icon-checkbox+label .checked, input[type='radio']:checked.icon-checkbox+label .checked           {display:inline; color: #b2dd4c}
+
+[class*=' icon-checkbox'].centered label,div[class^='icon-checkbox'].centered label {text-align: center; display: block;}
+[class*=' icon-checkbox'].centered label .label-text,div[class^='icon-checkbox'].centered label .label-text {display: block;}
+
+[class*=' icon-checkbox'].inline label,div[class^='icon-checkbox'].inline label {display: inline-block; margin-right: 1em;}
+
+.icon-checkbox-lg {margin-bottom: .5em;}
+.icon-checkbox-lg label {display: table; vertical-align: middle;}
+.icon-checkbox-lg label .label-text {width: 100%; font-size: 1em; font-weight: normal; display: table-cell; vertical-align: middle;}
+.icon-checkbox-lg label > i.fa {font-size: 3.8em; font-weight: normal; margin-right: 4px;}
+
+.icon-checkbox-md {margin-bottom: .5em;}
+.icon-checkbox-md label {display: table; vertical-align: middle;}
+.icon-checkbox-md label .label-text {width: 100%; font-size: 1em; font-weight: normal; display: table-cell; vertical-align: middle;}
+.icon-checkbox-md label > i.fa {font-size: 3.2em; font-weight: normal; margin-right: 8px;}
+
+.icon-checkbox-sm {margin-bottom: .5em;}
+.icon-checkbox-sm label {display: table; vertical-align: middle;}
+.icon-checkbox-sm label .label-text {width: 100%; font-size: .9em; font-weight: normal; display: table-cell; vertical-align: middle;}
+.icon-checkbox-sm label > i.fa {font-size: 2.4em; font-weight: normal; margin-right: 4px;}
+
+.icon-checkbox-xs {margin-bottom: .5em;}
+.icon-checkbox-xs label {display: table; vertical-align: middle;}
+.icon-checkbox-xs label .label-text {width: 100%; font-size: .7em; font-weight: normal; display: table-cell; vertical-align: middle;}
+.icon-checkbox-xs label > i.fa {font-size: 2.2em; font-weight: normal; margin-right: 4px;}
